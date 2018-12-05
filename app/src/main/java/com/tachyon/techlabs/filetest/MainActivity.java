@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     public static final int NEW_WORD_ACTIVITY_REQUEST_CODE = 1;
 
 
-     //pranjal2
+     //tachyon2
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        FloatingActionButton fabpc = findViewById(R.id.fab);
-        fabpc.setOnClickListener(new View.OnClickListener() {
+        FloatingActionButton fabttl = findViewById(R.id.fab);
+        fabttl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, NewWordActivity.class);
