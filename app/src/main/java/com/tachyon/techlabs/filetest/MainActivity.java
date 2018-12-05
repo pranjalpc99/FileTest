@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     public static final int NEW_WORD_ACTIVITY_REQUEST_CODE = 1;
 
 
-    //pranjalpc99
+     //tachyon2
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
