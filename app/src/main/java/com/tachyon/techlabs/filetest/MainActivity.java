@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
         /*
 
+        //pranjal conflict
         if(isExternalStorageWritable())
         {
             String content = " Hello World pc";
@@ -87,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }*/
 
-
+        //pran new
 
     }
 
