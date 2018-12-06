@@ -31,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Toast.makeText(this, "onceateMethod", Toast.LENGTH_SHORT).show();
+
+
         RecyclerView recyclerView = findViewById(R.id.recyclerview);
         final WordListAdapter adapter = new WordListAdapter(this);
         recyclerView.setAdapter(adapter);
@@ -38,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
 
         mWordViewModel = ViewModelProviders.of(this).get(WordViewModel.class);
 
+
+        String test = "msg";
 
         mWordViewModel.getAllWords().observe(this, new Observer<List<Word>>() {
             @Override
