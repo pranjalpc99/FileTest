@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "oncreate", Toast.LENGTH_SHORT).show();
         String msg = "test";
 
+        //changes in pranjalpc branch
+
         RecyclerView recyclerView = findViewById(R.id.recyclerview);
         final WordListAdapter adapter = new WordListAdapter(this);
         recyclerView.setAdapter(adapter);
