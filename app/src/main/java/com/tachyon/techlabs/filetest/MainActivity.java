@@ -31,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Toast.makeText(this, "oncreate", Toast.LENGTH_SHORT).show();
+        String msg = "test";
+
         RecyclerView recyclerView = findViewById(R.id.recyclerview);
         final WordListAdapter adapter = new WordListAdapter(this);
         recyclerView.setAdapter(adapter);
