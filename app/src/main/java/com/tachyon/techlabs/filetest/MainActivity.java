@@ -97,7 +97,6 @@ public class MainActivity extends AppCompatActivity {
         return Environment.MEDIA_MOUNTED.equals(state);
     }
 
-    //tachyon
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
@@ -111,5 +110,4 @@ public class MainActivity extends AppCompatActivity {
                     Toast.LENGTH_LONG).show();
         }
     }
-    //tachyon extra
 }
