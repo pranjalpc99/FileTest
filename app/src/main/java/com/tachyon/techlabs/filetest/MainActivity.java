@@ -93,7 +93,6 @@ public class MainActivity extends AppCompatActivity {
         }*/
 
         //pran new
-
     }
 
     /* Checks if external storage is available for read and write */
