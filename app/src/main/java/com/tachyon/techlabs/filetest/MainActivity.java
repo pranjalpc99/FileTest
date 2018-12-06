@@ -96,13 +96,12 @@ public class MainActivity extends AppCompatActivity {
         String state = Environment.getExternalStorageState();
         return Environment.MEDIA_MOUNTED.equals(state);
     }
-
-    //pranjal
+    
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        //extra pranjal
+
 
         if (requestCode == NEW_WORD_ACTIVITY_REQUEST_CODE && resultCode == RESULT_OK) {
             Word word = new Word(data.getStringExtra(NewWordActivity.EXTRA_REPLY));
