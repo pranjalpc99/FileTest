@@ -42,8 +42,13 @@ public class MainActivity extends AppCompatActivity {
         //lets go
 
 
+        //tachyon
 
         //master
+
+
+
+        //testing 
 
         mWordViewModel.getAllWords().observe(this, new Observer<List<Word>>() {
             @Override
