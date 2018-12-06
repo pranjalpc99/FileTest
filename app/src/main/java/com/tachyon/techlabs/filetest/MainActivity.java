@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        //testing 
+        //testing
 
         mWordViewModel.getAllWords().observe(this, new Observer<List<Word>>() {
             @Override
