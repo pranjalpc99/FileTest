@@ -58,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //tach
+
         FloatingActionButton fabttl = findViewById(R.id.fab);
         fabttl.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,6 +68,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(intent, NEW_WORD_ACTIVITY_REQUEST_CODE);
             }
         });
+
+        //tach conflict
 
         /*
 
