@@ -38,6 +38,14 @@ public class MainActivity extends AppCompatActivity {
 
         mWordViewModel = ViewModelProviders.of(this).get(WordViewModel.class);
 
+        //last testing master
+        //lets go
+
+
+        //pranjal
+        //test
+
+        //master
 
         mWordViewModel.getAllWords().observe(this, new Observer<List<Word>>() {
             @Override
