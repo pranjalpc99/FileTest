@@ -30,18 +30,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
-        Toast.makeText(this, "onceateMethod", Toast.LENGTH_SHORT).show();
-        String msg = "test";
-
-        //changes in tachyon
-        //test1
-
-
-        Toast.makeText(this, "oncreate", Toast.LENGTH_SHORT).show();
-        String msg = "test";
-
-        //changes in pranjalpc branch
 
         RecyclerView recyclerView = findViewById(R.id.recyclerview);
         final WordListAdapter adapter = new WordListAdapter(this);
@@ -50,8 +38,12 @@ public class MainActivity extends AppCompatActivity {
 
         mWordViewModel = ViewModelProviders.of(this).get(WordViewModel.class);
 
+        //last testing master
+        //lets go
 
-        String test = "msg";
+
+
+        //master
 
         mWordViewModel.getAllWords().observe(this, new Observer<List<Word>>() {
             @Override
