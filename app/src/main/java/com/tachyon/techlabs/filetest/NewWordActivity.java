@@ -13,12 +13,14 @@ public class NewWordActivity extends AppCompatActivity {
     public static final String EXTRA_REPLY = "com.example.android.wordlistsql.REPLY";
 
     private EditText mEditWordView;
+    //pranjal
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_word);
+        //new changes
 
         mEditWordView = findViewById(R.id.edit_word);
 
